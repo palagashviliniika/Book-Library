@@ -1,0 +1,59 @@
+.header{
+    width: 77.375rem;
+    margin: 0 auto;
+    padding: 1.7rem 0 4.75rem 0;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+}
+
+.header1:hover .fa-bookmark{
+    color: #FF0077;
+    font-size: 4rem;
+    transform: translateY(33.5px);
+}
+
+.fa.fa-bookmark{
+    top: -40px;
+    font-size: 4rem;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s linear color, 0.2s linear font-size, 0.2s linear transform;
+    position: absolute;
+}
+
+.name{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 3.5rem;
+}
+
+.header2{
+    display: flex;
+}
+
+.h2{
+    margin-left: 2rem;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.2s linear color, 0.2s linear border;
+    border-bottom:1px solid white;
+}
+
+.h2:hover{
+    color: #FF0077;
+    border-bottom:1px solid #FF0077;
+}
+
+
